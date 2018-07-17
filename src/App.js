@@ -3,8 +3,11 @@ import logo from './logo.svg';
 import './App.css';
 import Button from '@material-ui/core/Button';
 import { submitButton, editValue } from './logic';
-import {MDCTextField} from '@material/textfield';
 
+
+
+//import {MDCTextField} from '@material/textfield';
+//these two keep throwing errors for some inexplicable reason
 //const TextField = new MDCTextField();
 
 class App extends Component {
